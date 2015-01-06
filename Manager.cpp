@@ -5,7 +5,6 @@
 Manager::Manager(void)
 {
 }
- 
 
 Manager::~Manager(void)
 {
@@ -18,7 +17,7 @@ void Manager::init()
 	this->log.init();
 	Log::write2("Log created", true);
 	
-	game_menu.init(300, 600, 32, "SFML_MENÜ");
+	game_menu.init(300, 600, 32, "SFML_MENï¿½");
 	Log::write2("Menu buttons created", true);
 
 	ret_bool		=	game_menu.handle();				//if return 1 = Start Game; return 4 = End Game
